@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "complie:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanandas/Natours.git"
+  },
+  "author": "BusyOnFriday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanandas/Natours/issues"
+  },
+  "homepage": "https://github.com/wanandas/Natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
